@@ -11,6 +11,8 @@
 		8BB90F472AEBAF0F003DB88E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB90F462AEBAF0F003DB88E /* ContentView.swift */; };
 		8BB90F492AEBAF10003DB88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB90F482AEBAF10003DB88E /* Assets.xcassets */; };
 		8BB90F4C2AEBAF10003DB88E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB90F4B2AEBAF10003DB88E /* Preview Assets.xcassets */; };
+		8BC071FD2AEE9FCA00FB952D /* MarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC071FC2AEE9FCA00FB952D /* MarkerData.swift */; };
+		8BC071FF2AEE9FF600FB952D /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC071FE2AEE9FF600FB952D /* Pin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8BB90F462AEBAF0F003DB88E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BB90F482AEBAF10003DB88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BB90F4B2AEBAF10003DB88E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BC071FC2AEE9FCA00FB952D /* MarkerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerData.swift; sourceTree = "<group>"; };
+		8BC071FE2AEE9FF600FB952D /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				8BB90F442AEBAF0F003DB88E /* MapAppPart1App.swift */,
+				8BC071FE2AEE9FF600FB952D /* Pin.swift */,
+				8BC071FC2AEE9FCA00FB952D /* MarkerData.swift */,
 				8BB90F462AEBAF0F003DB88E /* ContentView.swift */,
 				8BB90F482AEBAF10003DB88E /* Assets.xcassets */,
 				8BB90F4A2AEBAF10003DB88E /* Preview Content */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB90F472AEBAF0F003DB88E /* ContentView.swift in Sources */,
+				8BC071FD2AEE9FCA00FB952D /* MarkerData.swift in Sources */,
 				8BB90F452AEBAF0F003DB88E /* MapAppPart1App.swift in Sources */,
+				8BC071FF2AEE9FF600FB952D /* Pin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 				DEVELOPMENT_TEAM = 7PSW8M3W4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "このアプリは、あなたの現在地を表示するために位置情報へのアクセスを必要としています。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +313,7 @@
 				DEVELOPMENT_TEAM = 7PSW8M3W4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "このアプリは、あなたの現在地を表示するために位置情報へのアクセスを必要としています。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

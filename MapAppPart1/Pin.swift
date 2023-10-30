@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import MapKit
+
+struct Pin: Identifiable {
+    let id = UUID()
+    let name: String
+    let data: CLLocationCoordinate2D
+}
